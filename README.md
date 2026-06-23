@@ -2,8 +2,6 @@
 
 ### Reframing Programming as Communication Through a Behavior-Driven Programming Language for Novice Learners
 
-![KritterCode Banner](assets/krittercode-banner.png)
-
 ## 📖 Overview
 
 **KritterCode** is a beginner-friendly programming language designed to make learning programming feel less like writing instructions and more like communicating with a virtual companion.
