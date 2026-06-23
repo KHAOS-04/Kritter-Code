@@ -1,154 +1,90 @@
-# 🐾 KritterCode
+🐾 KritterCode
+Reframing Programming as Communication Through a Behavior-Driven Programming Language for Novice Learners
 
-### Reframing Programming as Communication Through a Behavior-Driven Programming Language for Novice Learners
+📖 Overview
 
-![KritterCode Banner](assets/krittercode-banner.png)
+KritterCode is a beginner-friendly programming language designed to make learning programming feel less like writing instructions and more like communicating with a virtual companion.
 
-## 📖 Overview
-
-**KritterCode** is a beginner-friendly programming language designed to make learning programming feel less like writing instructions and more like communicating with a virtual companion.
-
-Instead of focusing on complex syntax and intimidating programming concepts, KritterCode introduces computational thinking through **Critters**—virtual creatures that can be taught abilities, assigned behaviors, and interacted with using natural, readable commands.
+Instead of focusing on complex syntax and intimidating programming concepts, KritterCode introduces computational thinking through Critters—virtual creatures that can be taught abilities, assigned behaviors, and interacted with using natural, readable commands.
 
 The language is inspired by the simplicity of Python and the emotional engagement of virtual pets such as Tamagotchi, creating an environment where novice programmers can learn programming fundamentals in a playful and approachable way.
 
----
-
-## ✨ Key Features
-
-### 🐣 Critter-Based Programming
+✨ Key Features
+🐣 Critter-Based Programming
 
 Create virtual critters with their own properties and behaviors.
 
-```krittercode
 critter Bibo:
     energy = 20
-```
-
----
-
-### 🎓 Teach Abilities
+🎓 Teach Abilities
 
 Give critters abilities that can be performed later.
 
-```krittercode
 teach shout:
     say "HUNGRY!!!"
-```
-
----
-
-### 💬 Natural-Language Commands
+💬 Natural-Language Commands
 
 Code reads like simple instructions.
 
-```krittercode
 ask Bibo to shout
-```
-
----
-
-### 🧮 Arithmetic Expressions
+🧮 Arithmetic Expressions
 
 Supports:
 
-* Addition (`+`)
-* Subtraction (`-`)
-* Multiplication (`*`)
-* Division (`/`)
-* Modulo (`%`)
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Modulo (%)
 
 Example:
 
-```krittercode
 food = 5 + 10
 say food
-```
 
 Output:
 
-```text
 15
-```
+🤔 Conditional Logic
 
----
+Make decisions using if and else.
 
-### 🤔 Conditional Logic
-
-Make decisions using `if` and `else`.
-
-```krittercode
 if Bibo.energy > 6:
     ask Bibo to BeGrateful
 else:
     ask Bibo to shout
-```
 
 Supported operators:
 
-* `>`
-* `<`
-* `==`
-
----
-
-### ⌨️ User Input
+>
+<
+==
+⌨️ User Input
 
 Interact with users directly.
 
-```krittercode
 say "What is your name?"
 ask user for name
 say "Hello " + name
-```
-
----
-
-### 🖨️ Output
+🖨️ Output
 
 Display text and variable values.
 
-```krittercode
 say "Hello!"
 say energy
-```
-
----
-
-## 🏗 Language Structure
-
-### Creating a Critter
-
-```krittercode
+🏗 Language Structure
+Creating a Critter
 critter Coco:
     energy = 15
-```
-
-### Teaching a Method
-
-```krittercode
+Teaching a Method
 teach happy:
     say "Yay!"
-```
-
-### Calling a Method
-
-```krittercode
+Calling a Method
 ask Coco to happy
-```
-
-### Updating Properties
-
-```krittercode
+Updating Properties
 tell Coco:
     energy = energy + 5
-```
-
----
-
-## 🚀 Example Program
-
-```krittercode
+🚀 Example Program
 critter Bibo:
     energy = 20
 
@@ -169,34 +105,19 @@ else:
 say "Is Bibo hungry?"
 ask user for answer
 say "You said: " + answer
-```
-
----
-
-## 🛠 Technology Stack
-
-### Language Runtime
-
-* Java
-
-### Development Environment
-
-* NetBeans IDE 8.2
-
-### Components
-
-* Lexer
-* Parser
-* Abstract Syntax Tree (AST)
-* Interpreter
-* Runtime Environment
-* Custom KritterCode IDE
-
----
-
-## 📂 Project Structure
-
-```text
+🛠 Technology Stack
+Language Runtime
+Java
+Development Environment
+NetBeans IDE 8.2
+Components
+Lexer
+Parser
+Abstract Syntax Tree (AST)
+Interpreter
+Runtime Environment
+Custom KritterCode IDE
+📂 Project Structure
 Finals/
 │
 ├── CritterCode/
@@ -221,36 +142,28 @@ Finals/
 │
 └── CritterCode.runtime/
     └── Critter.java
-```
-
----
-
-## 🎯 Educational Objectives
+🎯 Educational Objectives
 
 KritterCode aims to help novice programmers learn:
 
-* Variables
-* Arithmetic Operations
-* Conditional Logic
-* Input and Output
-* Methods and Behaviors
-* Object-Oriented Thinking
-* Computational Thinking
+Variables
+Arithmetic Operations
+Conditional Logic
+Input and Output
+Methods and Behaviors
+Object-Oriented Thinking
+Computational Thinking
 
 through a friendly and engaging programming environment.
 
----
-
-## 🌟 Vision
+🌟 Vision
 
 KritterCode seeks to transform programming from a purely technical activity into a form of communication and interaction. By allowing learners to teach, guide, and interact with virtual critters, the language creates a more welcoming entry point into computer science while still introducing core programming concepts.
 
----
+👨‍💻 Developed By
 
-## 👨‍💻 Developed By
-
-**Kia I. Soguilon**
+Kia I. Soguilon
 Bachelor of Science in Computer Science
 
-**KritterCode**
-*"Programming Through Communication."*
+KritterCode
+"Programming Through Communication."
